@@ -1,0 +1,64 @@
+base.css
+header {
+  background-color: #333;
+  color: pink;
+  padding: 20px;
+  text-align: center;
+  font-size: 100%;
+  font-weight: normal;
+  line-height: 1;
+}
+section {
+  padding: 10px;
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 1px 1px 4px #ccc;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+
+}
+h1,h2,h3,{
+  font-family: Arial;
+}
+h4 {
+  font-family: fantasy;
+}
+img {
+  width: 100px;
+  text-align: center;
+}
+joinBtn {
+  width: 10em;
+  height: 5ex;
+  background-color: gold;
+  border: 2px solid firebrick;
+  border-radius: 10px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+/*for this code I just JS*/
+
+.joinBtn:hover {
+  background-color: cornflowerblue;
+}
+
+a {
+  text-decoration: one;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 750px) {
+ section
+  {
+    display: block;
+  }
+  html {
+    background-color: steelblue;
+  }
