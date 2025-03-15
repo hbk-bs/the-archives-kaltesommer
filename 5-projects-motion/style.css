@@ -2,6 +2,11 @@
 a{
     color: rgb(255, 255, 255);
 }
+p{
+	text-align: center;
+	max-width:66ch;
+
+}
 
 body {
     background-color: black;

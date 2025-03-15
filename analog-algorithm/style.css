@@ -16,21 +16,33 @@
     text-decoration-color: aqua;
 /* } */
 
-
-
-
-
-
-
-
-
-
-
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #222;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: 0.3s;
+  }
+  .navbar a:hover {
+    background-color: white;
+    color: black;
+  }
 
 
 
 p{
     color:#2247b6;
+    text-align:left;
  }
 
  .card .p {
@@ -42,7 +54,7 @@ p{
 	justify-content: center;
 	max-width: 50%;
 	height: auto;
-    padding:20px;
+    padding:50px;
 }
 body {
    background-color: #000000;
