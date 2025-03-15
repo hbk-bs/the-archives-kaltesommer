@@ -16,3 +16,27 @@ document.querySelectorAll('.card').forEach(card => {
       images[index].classList.add('active');
   });
 });
+document.querySelector(".info-title1").addEventListener("click", function() {
+  const content = document.querySelector(".info-content1");
+      if (window.getComputedStyle(content).display === "none") {
+        content.style.display = "block";
+    } else {
+        content.style.display = "none";
+    }
+});
+document.querySelector(".info-title2").addEventListener("click", function() {
+  const content = document.querySelector(".info-content2");
+      if (window.getComputedStyle(content).display === "none") {
+        content.style.display = "block";
+    } else {
+        content.style.display = "none";
+    }
+});
+document.querySelector(".info-title3").addEventListener("click", function() {
+  const content = document.querySelector(".info-content3");
+      if (window.getComputedStyle(content).display === "none") {
+        content.style.display = "block";
+    } else {
+        content.style.display = "none";
+    }
+});

@@ -116,3 +116,21 @@ body {
         width:50%;
     }
 }
+.info-content1{
+    display: none;
+}
+.info-content2{
+    display: none;
+}
+.info-content3{
+    display: none;
+}
+.info-title1{
+    cursor: pointer;
+}
+.info-title2{
+    cursor: pointer;
+}
+.info-title3{
+    cursor: pointer;
+}

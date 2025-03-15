@@ -1,14 +1,15 @@
 .text {
     border: 0.5px solid black;
-    padding: 100px;
-    width: 200px;
-    height: 200px;
+    padding: 2%;
+    width: 360px;
+    height: 360px;
     text-align: justify;
     max-width: 66ch;
   }
 body {
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: bisque;
@@ -21,14 +22,17 @@ img{
 }
 main {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: auto;
     align-items: center;
-    width:100vw;
-    height:100vh;
 }
-main div{
-    display:flex;
+.pic{
+    display:column;
     width:auto;
     height:auto;
-    padding: 20px;
+}
+.ut{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
 }

@@ -1,15 +1,15 @@
 
-function keyPressed() {
-  if (key === "s") {
-    const name = prompt("Enter name", "out-${Date.now()}.png");
-    save(name);
-  }
-}
+// function keyPressed() {
+//   if (key === "s") {
+//     const name = prompt("Enter name", "out-${Date.now()}.png");
+//     save(name);
+//   }
+// }
 var s = function(k){
   let c = k.color("#FFFFFF");
   c.setAlpha(128);
   k.setup = function() {
-    k.createCanvas(360, 360);
+    k.createCanvas(400, 400);
     k.background("#DB7093");
     k.noStroke();
     //sun
@@ -19,7 +19,7 @@ var s = function(k){
     k.stroke("black");
     k.fill("black");
     //leg right
-    k.quad(300, 200, 230, 200, 230, 360, 300, 360);
+    k.quad(300, 200, 230, 200, 230, 400, 300, 400);
     //leg left
     k.quad(200, 200, 130, 200, 130, 400, 200, 400);
     k.stroke("darkblue");
@@ -30,7 +30,7 @@ var s = function(k){
     k.stroke("coral");
     k.fill("saddlebrown");
     k.triangle(300, 335, 320, 300, 360, 335);
-    k.square(300, 335, 58);
+    k.square(300, 339, 70);
     //Treetrunk
     k.fill("sienna");
     k.triangle(100, 200, 20, 270, 200, 270);
@@ -198,7 +198,7 @@ var s3 = function(k){
 
 var s4 = function(k){
   k.setup = function() {
-    k.createCanvas(350, 350);
+    k.createCanvas(400, 400);
   };
   let c = k.color("#FFFFFF");
   k.draw = function(){
@@ -209,7 +209,7 @@ var s4 = function(k){
     k.fill(c);
     c.setAlpha(190);
     k.fill(c);
-    k.ellipse(180, 232, 310, 40);
+    k.ellipse(150, 232, 310, 40);
     k.stroke("grey");
     k.noFill();
     k.ellipse(180, 232, 310, 40);
