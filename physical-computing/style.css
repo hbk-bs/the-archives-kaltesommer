@@ -2,10 +2,16 @@ video {
     height: 50vh;
     max-width: 50vw;
 }
+h1{
+  padding-top: 15px;
+ 
+}
+a{
+  color: red;
+}
 .column{
   display: flex;
   flex-direction: column;
-
 }
 img{
   display:flex;
@@ -51,4 +57,26 @@ body {
   .navbar a:hover {
     background-color: white;
     color: black;
+  }
+
+
+  @media (max-width: 768px) {
+    video {
+      height: 30vh;
+      max-width: 90vw;
+    }
+    
+    .row {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .navbar a {
+      padding: 5px 10px;
+    }
+  
+    img {
+      max-width: 50vw;
+    }
   }

@@ -41,3 +41,18 @@ body {
 	background-color: white;
 	color: black;
 }
+@media (max-width: 768px) {
+    p {
+        max-width: 80%;
+        padding: 20px;
+    }
+
+    body {
+        height: auto;
+        padding: 50px;
+    }
+
+    .navbar a {
+        padding: 5px 10px;
+    }
+}
