@@ -1,0 +1,132 @@
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #222;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: 0.3s;
+  }
+  .navbar a:hover {
+    background-color: white;
+    color: black;
+  }
+
+p{
+    color:rgb(135, 135, 233);
+    text-align:center;
+
+ }
+
+ .card .p {
+    text-align: left;
+    color: #000000;
+ }
+
+body {
+   background-color: #000000;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* background-color: #f4f4f4; */
+    text-align: center;
+    
+    
+}
+.flex{
+    flex-wrap: wrap;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:  #000000;
+    padding-top: 20vh;
+}
+.container {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+  align-content: center;
+  background-color: #000000;
+}
+.card {
+    flex-wrap: wrap;
+    background: white;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+}
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel img {
+    width: 100%;
+    display: none;
+}
+.carousel img.active {
+    display: block;
+}
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 3px;
+}
+.prev { left: 5px; }
+.next { right: 5px; }
+
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 50%;
+    }
+    .led-light-font{
+        width:50%;
+    }
+}
+.info-content1{
+    display: none;
+}
+.info-content2{
+    display: none;
+}
+.info-content3{
+    display: none;
+}
+.info-title1{
+    cursor: pointer;
+}
+.info-title2{
+    cursor: pointer;
+}
+.info-title3{
+    cursor: pointer;
+}
+footer{
+    position:relative;
+    margin: 3px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
