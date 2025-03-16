@@ -58,3 +58,8 @@ footer{
 .projectLink{
 	color: white;
 }
+
+.reflection-paragraph{
+	max-width: 66ch;
+	padding-top: 10vh;
+}

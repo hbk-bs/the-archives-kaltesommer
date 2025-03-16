@@ -3,8 +3,8 @@ let canvas;
 let imagelist = {};
 
 function setup() {
-  let width = 640;
-  let height = 640;
+  let width = document.getElementById('p5-container').offsetWidth-5;
+  let height = document.getElementById('p5-container').offsetHeight-5;
   canvas = createCanvas(width, height);
   video = createCapture(VIDEO);
   video.size(width, height);

@@ -158,15 +158,7 @@ var s2 = function(k){
     k.rect(0, 370, 60, 50);
   }
 }
-var sULTRA = function(k){
-  k.setup = function() {
-    
-  };
 
-  k.draw = function(){
-
-  };
-}
 var s3 = function(k){
   let c1 = k.color(255, 204, 0);
   k.setup = function() {

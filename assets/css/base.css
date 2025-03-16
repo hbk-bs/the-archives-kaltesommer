@@ -22,13 +22,14 @@ footer {
 
 }
 h1,h2,h3,{
-  font-family: Arial;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 h4 {
-  font-family: fantasy;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 img {
-  width: 100px;
+  width: 20%;
+  height: 20%;
   text-align: center;
 }
 joinBtn {
@@ -62,3 +63,4 @@ a:hover {
   html {
     background-color: steelblue;
   }
+}
